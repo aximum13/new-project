@@ -8,8 +8,13 @@ end
 puts "Сколько кинуть кубиков?"
 
 number = gets.to_i
+sum = 0
 
 number.times do
-  show_dice(100)
-  puts (rand(6) + 1)
-end
+    show_dice(100)
+  rand_number = (rand(6) + 1)
+  puts rand_number
+  sum += rand_number
+ end
+
+puts "Сумма бросков: #{sum}" 
