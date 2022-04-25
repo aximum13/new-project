@@ -1,9 +1,13 @@
-answer = rand
+answer = rand(2)
 
-if (answer > 0.5)
-  puts ("Выпал орел")
-elsif (answer.round(1) == 0.5)
+if rand(5) == 3
   puts ("Монета встала на ребро")
 else
-  puts ("Выпала решка")
+  if (answer == 1)
+    puts ("Выпал орел")
+  else
+    puts ("Выпала решка")
+  end
 end
+
+p answer
