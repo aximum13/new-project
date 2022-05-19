@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 require "date" #Подключаем файл date для работы с классом Date
 require "petrovich" #Подключаем gem "petrovich" для работы со склонением имени, фамилии
 
